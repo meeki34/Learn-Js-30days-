@@ -1,0 +1,29 @@
+.key {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  display: inline-block;
+  transition: transform 0.07s ease;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: #fff
+}
+
+.playing {
+  transform: scale(1.1);
+  background: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+body {
+  background-image: url('https://tse3.mm.bing.net/th/id/OIP.Jy0kgJQXpXrp-X_UGrjzzQHaEa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
